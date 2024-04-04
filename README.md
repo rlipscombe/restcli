@@ -1,14 +1,11 @@
-restcli
-=====
+# restcli
 
-An escript
+Simple REST client.
 
-Build
------
+## Build
 
-    $ rebar3 escriptize
+    $ make
 
-Run
----
+## Run
 
-    $ _build/default/bin/restcli
+    $ ./restcli
