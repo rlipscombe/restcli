@@ -1,1 +1,4 @@
-_build/default/bin/restcli
+#!/bin/sh
+
+export ERL_LIBS=_build/default/lib
+exec _build/default/bin/restcli "$@"
